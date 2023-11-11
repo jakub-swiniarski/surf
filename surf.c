@@ -2153,7 +2153,7 @@ main(int argc, char *argv[])
 	if (argc > 0)
 		arg.v = argv[0];
 	else
-		arg.v = "about:blank";
+		arg.v = "https://duckduckgo.com";
 
 	setup();
 	c = newclient(NULL);
