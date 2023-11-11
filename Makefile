@@ -42,7 +42,7 @@ distclean: clean
 
 dist: distclean
 	mkdir -p surf-$(VERSION)
-	cp -R LICENSE Makefile config.mk config.def.h README.md \
+	cp -R LICENSE Makefile config.mk README.md \
 	    surf-open.sh arg.h \
 	    common.h $(SRC) $(WSRC) surf-$(VERSION)
 	tar -cf surf-$(VERSION).tar surf-$(VERSION)
