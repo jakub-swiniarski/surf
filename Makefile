@@ -42,9 +42,9 @@ distclean: clean
 
 dist: distclean
 	mkdir -p surf-$(VERSION)
-	cp -R LICENSE Makefile config.mk config.def.h README \
-	    surf-open.sh arg.h TODO.md surf.png \
-	    surf.1 common.h $(SRC) $(WSRC) surf-$(VERSION)
+	cp -R LICENSE Makefile config.mk config.def.h README.md \
+	    surf-open.sh arg.h \
+	    common.h $(SRC) $(WSRC) surf-$(VERSION)
 	tar -cf surf-$(VERSION).tar surf-$(VERSION)
 	gzip surf-$(VERSION).tar
 	rm -rf surf-$(VERSION)
@@ -58,13 +58,9 @@ install: all
 	for wlib in $(WLIB); do \
 	    chmod 644 $(DESTDIR)$(LIBDIR)/$$wlib; \
 	done
-	mkdir -p $(DESTDIR)$(MANPREFIX)/man1
-	sed "s/VERSION/$(VERSION)/g" < surf.1 > $(DESTDIR)$(MANPREFIX)/man1/surf.1
-	chmod 644 $(DESTDIR)$(MANPREFIX)/man1/surf.1
 
 uninstall:
 	rm -f $(DESTDIR)$(PREFIX)/bin/surf
-	rm -f $(DESTDIR)$(MANPREFIX)/man1/surf.1
 	for wlib in $(WLIB); do \
 	    rm -f $(DESTDIR)$(LIBDIR)/$$wlib; \
 	done
