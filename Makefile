@@ -24,9 +24,6 @@ surf: $(OBJ)
 
 $(OBJ) $(WOBJ): config.h common.h config.mk
 
-config.h:
-	cp config.def.h $@
-
 $(OBJ): $(SRC)
 	$(CC) $(SURFCFLAGS) $(CFLAGS) -c $(SRC)
 
