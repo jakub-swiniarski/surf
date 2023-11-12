@@ -8,4 +8,5 @@ This is a fork of [surf](https://surf.suckless.org/) from [suckless.org](https:/
 - gst-plugins-good.
 
 ## Changes:
-- go to duckduckgo if no arguments.
+- go to duckduckgo if no arguments,
+- greater zoom by default.
