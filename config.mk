@@ -1,7 +1,4 @@
-# surf version
 VERSION = 2.1
-
-# Customize below to fit your system
 
 # paths
 PREFIX = /usr/local
@@ -27,6 +24,3 @@ CPPFLAGS = -DVERSION=\"$(VERSION)\" -DGCR_API_SUBJECT_TO_CHANGE \
            -D_DEFAULT_SOURCE
 SURFCFLAGS = -fPIC $(INCS) $(CPPFLAGS)
 WEBEXTCFLAGS = -fPIC $(WEBEXTINC)
-
-# compiler
-#CC = c99

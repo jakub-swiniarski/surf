@@ -1,7 +1,4 @@
 #!/bin/sh
-#
-# See the LICENSE file for copyright and license details. 
-#
 
 xidfile="$HOME/tmp/tabbed-surf.xid"
 uri=""

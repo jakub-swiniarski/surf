@@ -1,7 +1,3 @@
-/* See LICENSE file for copyright and license details.
- *
- * To understand surf, start reading main().
- */
 #include <sys/file.h>
 #include <sys/socket.h>
 #include <sys/types.h>
