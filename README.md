@@ -9,4 +9,5 @@ This is a fork of [surf](https://surf.suckless.org/) from [suckless.org](https:/
 
 ## Changes:
 - go to duckduckgo if no arguments,
-- greater zoom by default.
+- greater zoom by default,
+- dark mode by default.
