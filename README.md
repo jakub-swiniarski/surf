@@ -9,6 +9,6 @@ This is a fork of [surf](https://surf.suckless.org/) from [suckless.org](https:/
 
 ## Changes:
 - removed features that I don't use,
-- go to duckduckgo if no arguments,
+- go to DuckDuckGo by default,
 - greater zoom by default,
 - dark mode by default.
