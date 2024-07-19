@@ -2011,7 +2011,7 @@ int
 main()
 {
 	Client *c;
-	char *uri="https://duckduckgo.com";
+	char *uri = "https://duckduckgo.com";
 	
 	setup();
 	c = newclient(NULL);
