@@ -3,6 +3,7 @@ This is a fork of [surf](https://surf.suckless.org/) from [suckless.org](https:/
 
 ## Prerequisites
 - gcr
+- gtk+
 - webkit2gtk
 - gst-libav
 - gst-plugins-good
