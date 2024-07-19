@@ -2,6 +2,8 @@
 This is a fork of [surf](https://surf.suckless.org/) from [suckless.org](https://suckless.org).
 
 ## Prerequisites
+- gcc
+- make
 - gcr
 - gtk+
 - webkit2gtk
